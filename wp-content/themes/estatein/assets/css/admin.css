@@ -1,0 +1,68 @@
+/**
+ * Admin styles for Estatein blocks
+ */
+
+/* Import main stylesheet for block styles */
+@import url('../css/style.css');
+
+/* Make sure the blocks have appropriate spacing in the editor */
+.editor-styles-wrapper .wp-block {
+    max-width: 100%;
+    margin-bottom: 28px;
+}
+
+/* Set dark theme for the editor */
+.editor-styles-wrapper .block-editor-block-list__layout {
+    background-color: #141414;
+    color: #FFF;
+}
+
+.editor-styles-wrapper .acf-block-preview {
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* SVG Icon styles for admin */
+.acf-field svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.acf-field svg use {
+    fill: inherit;
+    stroke: inherit;
+}
+
+/* Fix for icons in ACF fields */
+.acf-field-select img,
+.acf-field-image img,
+.acf-field-gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Dark theme admin adjustments for icon visibility */
+.acf-fields.-left > .acf-field:before {
+    background-color: #1A1A1A;
+}
+
+.acf-fields.-left > .acf-field > .acf-label {
+    background-color: #1A1A1A;
+}
+
+/* Social media icon preview styles */
+.acf-field-repeater .acf-row .acf-field-select[data-name="icon"] .acf-input select {
+    padding-left: 30px;
+    position: relative;
+}
+
+.acf-field-repeater .acf-row .acf-field-select[data-name="icon"] .acf-input:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+}
