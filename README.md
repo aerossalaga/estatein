@@ -1,5 +1,15 @@
 # Estatein Theme
 
+## Demo Links
+Demo URL: https://zta.bwk.mybluehost.me/website_d7c3c2a8/
+
+WP Admin: https://zta.bwk.mybluehost.me/website_d7c3c2a8/wp-admin/
+
+demo user: `admin`
+
+demo pass: `admin`
+
+
 Estatein is a modern WordPress theme designed for real estate websites. It offers a range of customizable blocks and features to showcase properties and services effectively.
 
 ## Theme Setup
